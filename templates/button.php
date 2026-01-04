@@ -11,7 +11,7 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 <div class="neuralyn-tryon-button-wrapper">
-	<button type="button" class="neuralyn-tryon-app-button neuralyn-tryon-app-button-default">
+	<button type="button" class="neuralyn-tryon-app-button neuralyn-tryon-app-button-default" styles="display: none;">
 <svg FILL="currentColor" version="1.0" xmlns="http://www.w3.org/2000/svg"
     width="15.000000pt" height="10.000000pt" viewBox="0 0 50.000000 54.000000"
     preserveAspectRatio="xMidYMid meet">
