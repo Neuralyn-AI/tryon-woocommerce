@@ -1,0 +1,66 @@
+name: Create Release
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required for creating releases
+      actions: read # Required for workflow access
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Extract version from plugin header
+        id: version
+        run: |
+          VERSION=$(grep -oP '^\s*\*\s*Version:\s*\K[0-9.]+' neuralyn-tryon.php)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Extracted version: $VERSION"
+
+      - name: Check if release exists
+        id: check_release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh release view "v${{ steps.version.outputs.version }}" &>/dev/null; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Fail if release exists
+        if: steps.check_release.outputs.exists == 'true'
+        run: |
+          echo "::error::Release v${{ steps.version.outputs.version }} already exists!"
+          echo ""
+          echo "You need to update the version number in:"
+          echo "  - neuralyn-tryon.php (header line 6 and constant line 24)"
+          echo "  - readme.txt (Stable tag)"
+          echo ""
+          exit 1
+
+      - name: Create plugin directory and zip
+        run: |
+          mkdir -p neuralyn-tryon
+          # Copy all plugin files
+          cp -r includes neuralyn-tryon/
+          cp -r templates neuralyn-tryon/
+          cp -r languages neuralyn-tryon/
+          cp neuralyn-tryon.php neuralyn-tryon/
+          cp readme.txt neuralyn-tryon/
+          cp LICENSE.md neuralyn-tryon/ 2>/dev/null || true
+          # Create zip
+          zip -r neuralyn-tryon.zip neuralyn-tryon
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "v${{ steps.version.outputs.version }}" \
+            neuralyn-tryon.zip \
+            --title "Neuralyn TRYON for WooCommerce v${{ steps.version.outputs.version }}" \
+            --generate-notes

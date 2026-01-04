@@ -1,0 +1,171 @@
+# Copyright (C) 2025 Neuralyn
+# This file is distributed under the same license as the Neuralyn TRYON Connector for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Neuralyn TRYON Connector for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: support@neuralyn.com.br\n"
+"POT-Creation-Date: 2025-01-03 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: WP-CLI\n"
+"X-Domain: neuralyn-tryon\n"
+
+#: neuralyn-tryon.php:56
+msgid "Neuralyn TRYON requires %s to be installed and active."
+msgstr ""
+
+#: neuralyn-tryon.php:109
+msgid "Settings"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:46
+msgid "Neuralyn TRYON"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:84
+msgid "License Settings"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:87
+msgid "Enter your Neuralyn TRYON license key. You can find it in your <a href=\"%s\" target=\"_blank\">Neuralyn Dashboard</a>."
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:93
+msgid "License Key"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:96
+msgid "Your Neuralyn TRYON license key."
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:107
+msgid "Button Design"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:109
+msgid "Customize the appearance of the Try-On button."
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:114
+msgid "Button Style"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:117
+msgid "Select a pre-defined button style."
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:124
+msgid "Float Right"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:126
+msgid "Align the button to the right."
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:132
+msgid "Hook Priority"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:135
+msgid "Priority for hook execution. Lower values = earlier execution. Default: 25."
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:171
+msgid "Button Placement"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:172
+msgid "Select where the Try-On button should appear on your store."
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:186
+msgid "Product Page"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:186
+msgid "Shop Listing"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:220
+msgid "Customer Classification"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:221
+msgid "Select which order statuses qualify a customer as a \"buyer\". Customers with at least one order in these statuses will be classified as buyers."
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:226
+msgid "Buyer Order Statuses"
+msgstr ""
+
+#: includes/class-neuralyn-tryon-admin.php:242
+msgid "Default: Completed and Processing orders."
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:76
+msgid "Product Summary"
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:77
+msgid "Displayed in the product summary area, after the title."
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:81
+msgid "After Add to Cart Button"
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:82
+msgid "Displayed immediately after the Add to Cart button."
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:86
+msgid "Product Thumbnails"
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:87
+msgid "Displayed in the product gallery thumbnails area."
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:91
+msgid "After Product Summary"
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:92
+msgid "Displayed after the entire product summary section."
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:96
+msgid "Product Tabs"
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:97
+msgid "Adds a new tab with the Try-On button."
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:101
+msgid "Before Add to Cart Form"
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:102
+msgid "Displayed before the add to cart form."
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:106
+msgid "Shop Loop Item"
+msgstr ""
+
+#: includes/class-neuralyn-tryon.php:107
+msgid "Displayed after each product in shop/category listings."
+msgstr ""
+
+#: includes/class-neuralyn-tryon-frontend.php:112
+msgid "Virtual Try-On"
+msgstr ""
+
+#: templates/button.php:25
+msgid "Try-On"
+msgstr ""

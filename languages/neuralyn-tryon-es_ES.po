@@ -1,0 +1,140 @@
+# Spanish (Spain) translation for Neuralyn TRYON Connector for WooCommerce
+# Copyright (C) 2025 Neuralyn
+# This file is distributed under the same license as the plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Neuralyn TRYON Connector for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: support@neuralyn.com.br\n"
+"POT-Creation-Date: 2025-01-03 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-01-03 00:00:00+00:00\n"
+"Last-Translator: Neuralyn <support@neuralyn.com.br>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI\n"
+"X-Domain: neuralyn-tryon\n"
+
+msgid "Neuralyn TRYON requires %s to be installed and active."
+msgstr "Neuralyn TRYON requiere que %s esté instalado y activo."
+
+msgid "Settings"
+msgstr "Configuración"
+
+msgid "Neuralyn TRYON"
+msgstr "Neuralyn TRYON"
+
+msgid "License Settings"
+msgstr "Configuración de Licencia"
+
+msgid "Enter your Neuralyn TRYON license key. You can find it in your <a href=\"%s\" target=\"_blank\">Neuralyn Dashboard</a>."
+msgstr "Introduce tu clave de licencia Neuralyn TRYON. Puedes encontrarla en tu <a href=\"%s\" target=\"_blank\">Panel de Neuralyn</a>."
+
+msgid "License Key"
+msgstr "Clave de Licencia"
+
+msgid "Your Neuralyn TRYON license key."
+msgstr "Tu clave de licencia Neuralyn TRYON."
+
+msgid "Button Design"
+msgstr "Diseño del Botón"
+
+msgid "Customize the appearance of the Try-On button."
+msgstr "Personaliza la apariencia del botón Probármelo."
+
+msgid "Button Style"
+msgstr "Estilo del Botón"
+
+msgid "Select a pre-defined button style."
+msgstr "Selecciona un estilo de botón predefinido."
+
+msgid "Float Right"
+msgstr "Alinear a la Derecha"
+
+msgid "Align the button to the right."
+msgstr "Alinear el botón a la derecha."
+
+msgid "Hook Priority"
+msgstr "Prioridad del Hook"
+
+msgid "Priority for hook execution. Lower values = earlier execution. Default: 25."
+msgstr "Prioridad para la ejecución del hook. Valores menores = ejecución más temprana. Por defecto: 25."
+
+msgid "Button Placement"
+msgstr "Ubicación del Botón"
+
+msgid "Select where the Try-On button should appear on your store."
+msgstr "Selecciona dónde debe aparecer el botón Probármelo en tu tienda."
+
+msgid "Product Page"
+msgstr "Página de Producto"
+
+msgid "Shop Listing"
+msgstr "Listado de Tienda"
+
+msgid "Customer Classification"
+msgstr "Clasificación del Cliente"
+
+msgid "Select which order statuses qualify a customer as a \"buyer\". Customers with at least one order in these statuses will be classified as buyers."
+msgstr "Selecciona qué estados de pedido califican a un cliente como \"comprador\". Los clientes con al menos un pedido en estos estados serán clasificados como compradores."
+
+msgid "Buyer Order Statuses"
+msgstr "Estados de Pedido de Comprador"
+
+msgid "Default: Completed and Processing orders."
+msgstr "Por defecto: Pedidos Completados y En Proceso."
+
+msgid "Product Summary"
+msgstr "Resumen del Producto"
+
+msgid "Displayed in the product summary area, after the title."
+msgstr "Se muestra en el área de resumen del producto, después del título."
+
+msgid "After Add to Cart Button"
+msgstr "Después del Botón Añadir al Carrito"
+
+msgid "Displayed immediately after the Add to Cart button."
+msgstr "Se muestra inmediatamente después del botón Añadir al Carrito."
+
+msgid "Product Thumbnails"
+msgstr "Miniaturas del Producto"
+
+msgid "Displayed in the product gallery thumbnails area."
+msgstr "Se muestra en el área de miniaturas de la galería del producto."
+
+msgid "After Product Summary"
+msgstr "Después del Resumen del Producto"
+
+msgid "Displayed after the entire product summary section."
+msgstr "Se muestra después de toda la sección de resumen del producto."
+
+msgid "Product Tabs"
+msgstr "Pestañas del Producto"
+
+msgid "Adds a new tab with the Try-On button."
+msgstr "Añade una nueva pestaña con el botón Probármelo."
+
+msgid "Before Add to Cart Form"
+msgstr "Antes del Formulario Añadir al Carrito"
+
+msgid "Displayed before the add to cart form."
+msgstr "Se muestra antes del formulario añadir al carrito."
+
+msgid "Shop Loop Item"
+msgstr "Elemento del Listado"
+
+msgid "Displayed after each product in shop/category listings."
+msgstr "Se muestra después de cada producto en los listados de tienda/categoría."
+
+msgid "Virtual Try-On"
+msgstr "Probador Virtual"
+
+msgid "Try-On"
+msgstr "Probármelo"
+
+msgid "See how this item looks on you before purchasing. Click the button below to start the virtual try-on experience."
+msgstr "Mira cómo te queda este artículo antes de comprarlo. Haz clic en el botón de abajo para iniciar la experiencia de probador virtual."
+
+msgid "Try it on"
+msgstr "Probármelo"
