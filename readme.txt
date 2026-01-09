@@ -8,7 +8,7 @@ Requires PHP: 7.4
 WC requires at least: 7.0
 WC tested up to: 9.0
 License: Commercial
-License URI: https://www.neuralyn.com.br/files/woocommerce/license.txt
+License URI: https://neuralyn.ai/files/woocommerce/license.txt
 
 Virtual fitting room integration that allows customers to try on clothes virtually before purchasing using AI-powered body detection technology.
 
@@ -51,7 +51,7 @@ Neuralyn TRYON Connector for WooCommerce is a virtual fitting room plugin that i
 
 = Where can I get a license key? =
 
-You can obtain a license key from your Neuralyn Dashboard at https://www.neuralyn.com.br/dashboard
+You can obtain a license key from your Neuralyn Dashboard at https://neuralyn.ai/dashboard
 
 = Which pages show the Try-On button? =
 
@@ -59,7 +59,7 @@ By default, the button appears on product pages. You can also enable it for shop
 
 = Can I customize the button appearance? =
 
-Yes! Go to your Neuralyn dashboard at https://www.neuralyn.com.br/dashboard and change the button style under your subscription, e-commerce option.
+Yes! Go to your Neuralyn dashboard at https://neuralyn.ai/dashboard and change the button style under your subscription, e-commerce option.
 
 = Is the plugin compatible with HPOS? =
 
@@ -92,4 +92,4 @@ Initial release of Neuralyn TRYON Connector for WooCommerce.
 
 == Support ==
 
-For support, please contact us at support@neuralyn.com.br or visit https://www.neuralyn.com.br
+For support, please contact us at support@neuralyn.ai or visit https://neuralyn.ai

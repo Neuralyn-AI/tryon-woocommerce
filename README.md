@@ -25,7 +25,7 @@ Virtual fitting room integration that allows e-commerce customers to try on clot
 1. Upload the `neuralyn-tryon` folder to `/wp-content/plugins/`
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to **WooCommerce > Settings > Neuralyn TRYON** to configure the plugin
-4. Enter your license key from your [Neuralyn Dashboard](https://www.neuralyn.com.br/dashboard)
+4. Enter your license key from your [Neuralyn Dashboard](https://neuralyn.ai/dashboard)
 
 ## Configuration
 
@@ -122,10 +122,10 @@ Each registered customer is assigned a unique UUID v4 identifier stored in user 
 
 ## Support
 
-- **Dashboard**: https://www.neuralyn.com.br/dashboard
-- **Product Info**: https://www.neuralyn.com.br/en/products/tryon
-- **Support Email**: support@neuralyn.com.br
+- **Dashboard**: https://neuralyn.ai/dashboard
+- **Product Info**: https://neuralyn.ai/en/products/tryon
+- **Support Email**: support@neuralyn.ai
 
 ## License
 
-Commercial license. See https://www.neuralyn.com.br/files/woocommerce/license.txt
+Commercial license. See https://neuralyn.ai/files/woocommerce/license.txt

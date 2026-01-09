@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Neuralyn TRYON Connector for WooCommerce
- * Plugin URI: https://www.neuralyn.com.br/en/products/tryon
+ * Plugin URI: https://neuralyn.ai/en/products/tryon
  * Description: Virtual fitting room integration that allows customers to try on clothes virtually before purchasing using AI-powered body detection technology.
  * Version: 1.0.0
  * Author: Neuralyn
- * Author URI: https://www.neuralyn.com.br
+ * Author URI: https://neuralyn.ai
  * License: Commercial
- * License URI: https://www.neuralyn.com.br/files/woocommerce/license.txt
+ * License URI: https://neuralyn.ai/files/woocommerce/license.txt
  * Text Domain: neuralyn-tryon
  * Domain Path: /languages
  * Requires at least: 6.0

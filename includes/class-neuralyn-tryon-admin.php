@@ -82,7 +82,7 @@ class Neuralyn_Tryon_Admin {
 				'desc'  => sprintf(
 					/* translators: %s: Dashboard URL */
 					__( 'Enter your Neuralyn TRYON license key. You can find it in your <a href="%s" target="_blank">Neuralyn Dashboard</a>.', 'neuralyn-tryon' ),
-					'https://www.neuralyn.com.br/dashboard'
+					'https://neuralyn.ai/dashboard'
 				),
 				'id'    => 'neuralyn_tryon_license_section',
 			),
